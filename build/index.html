@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stellar explorations</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+
+    <header class="sticky top-0 z-10 bg-teal-700 text-white" id="header">
+      <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+        <h1 class="mr-9 flex text-3xl font-medium">
+          <a href="#hero" class="flex gap-2">
+            <img src="./img/startup (2).png" alt="header" />
+            Stellar
+          </a>
+        </h1>
+        <div>
+          <button
+            id="hamburguer-button"
+            class="relative h-8 w-8 text-3xl focus:outline-none md:hidden"
+          >
+            <div
+              class="top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+          <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+            <a href="#rockets" class="hover:opacity-90">Nossos Foguetes</a>
+            <a href="#testimonials" class="hover:opacity-90">Testemunhos</a>
+            <a href="#contact" class="hover:opacity-90">Contate-nos</a>
+          </nav>
+        </div>
+      </section>
+
+      <section
+        id="mobile-menu"
+        class="top-68 absolute hidden w-full origin-top animate-open-menu flex-col items-center justify-center bg-black text-4xl"
+      >
+        <nav class="flex min-h-screen flex-col py-10" aria-label="mobile">
+          <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
+            >Página Inicial</a
+          >
+          <a href="#rockets" class="w-full py-6 text-center hover:opacity-90"
+            >Nossos Foguetes</a
+          >
+          <a
+            href="#testimonials"
+            class="w-full py-6 text-center hover:opacity-90"
+            >Testemunhos</a
+          >
+          <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
+            >Contate-nos</a
+          >
+        </nav>
+      </section>
+    </header>
+
+    <main class="mx-auto max-w-4xl">
+      <section
+        id="hero"
+        class="mt-14 mb-12 flex scroll-mt-32 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="max-w-screen-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl"
+          >
+          Exploramos.
+            <span class="text-indigo-700 dark:text-indigo-300">
+              destemidamente 
+            </span>
+            além das estrelas...
+          </h2>
+          <p
+            class="mt-4 max-w-screen-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
+          >
+          Desbravamos o universo, forjando um futuro além das estrelas. Na Stellar Explorations, nossa missão é desvendar mistérios cósmicos e expandir os horizontes da humanidade.
+          </p>
+          <p
+            class="mt-4 max-w-screen-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
+          >
+            Pense Stellar Explorations.
+          </p>
+        </article>
+        <img class="w-1/2" src="./img/foto-principal.png" alt="Rocket Dab" />
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+      <section id="rockets" class="my-12 scroll-mt-32 p-6">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+        Nossos Foguetes
+        </h2>
+        <ul
+          class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row sm:items-stretch"
+        >
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-700 dark:bg-black sm:w-5/6"
+          >
+            <img src="./img/Cool-Robot.png" alt="Explorer" class="mb-6 w-1/2" />
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Explorador
+            </h3>
+            <p
+              class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
+            >
+              $
+            </p>
+            <p
+              class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+            Exploração acessível
+            </p>
+          </li>
+
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-700 dark:bg-black sm:w-5/6"
+          >
+            <img src="./img/et.png" alt="Adventurer" class="mb-6 w-1/2" />
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Aventureiro
+            </h3>
+            <p
+              class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
+            >
+              $$
+            </p>
+            <p
+              class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+            Foguete mais vendido
+            </p>
+          </li>
+
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-700 dark:bg-black sm:w-5/6"
+          >
+            <img src="./img/Taken.png" alt="Infinity" class="mb-6 w-1/2" />
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Infinidade
+            </h3>
+            <p
+              class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
+            >
+              $$$
+            </p>
+            <p
+              class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+            Nave estelar de luxo
+
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-[#000] dark:bg-[#ffffff]" />
+
+      <section id="testimonials" class="my-9 scroll-mt-32 p-6 dark:text-black">
+        <h2
+          class="mb-16 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+        Testemunhos
+        </h2>
+        <div class="flex flex-col gap-8">
+          <section>
+            <blockquote
+              class="rounded-xl border border-solid border-gray-200 p-2 dark:border dark:border-solid dark:border-gray-800 sm:border-solid sm:bg-transparent dark:sm:border dark:sm:border-solid dark:sm:border-gray-800 dark:sm:bg-[#000]"
+            >
+              <span class="grid text-5xl text-[#a8a8a850] dark:text-[#ffffff59]"
+                >&#10077;</span
+              >
+              <p
+                class="rounded-xl border-solid px-6 py-4 text-left text-2xl font-light text-black before:absolute before:top-0 before:content-['\201c'] dark:text-white sm:text-black dark:sm:text-white"
+              >
+              A Stellar sempre esteve lá para mim, seu foguete Exporer chegou em uma caixa de madeira como esperado. Lide-longo cliente! Experiência de compra A++.
+              </p>
+              <span
+                class="flex items-center justify-end text-5xl text-[#a8a8a850] dark:text-[#ffffff59]"
+                >&#10078;</span
+              >
+            </blockquote>
+            <article>
+              <p
+                class="mt-2 text-right font-extralight italic text-gray-800 dark:text-gray-500"
+              >
+                &#8212;Anderson Jhonatan
+              </p>
+            </article>
+          </section>
+          <section>
+            <blockquote
+              class="rounded-xl border border-solid border-gray-200 p-2 dark:border dark:border-solid dark:border-gray-800 sm:border-solid sm:bg-transparent dark:sm:border dark:sm:border-solid dark:sm:border-gray-800 dark:sm:bg-[#000]"
+            >
+              <span class="grid text-5xl text-[#a8a8a850] dark:text-[#ffffff59]"
+                >&#10077;</span
+              >
+              <p
+                class="rounded-xl border-solid px-6 py-4 text-left text-2xl font-light text-black before:absolute before:top-0 before:content-['\201c'] dark:text-white sm:text-black dark:sm:text-white"
+              >
+              Impressionado com a Stellar mais uma vez! O foguete Explorer veio em segurança em uma caixa de madeira. Experiência de compra A++
+              </p>
+              <span
+                class="flex items-center justify-end text-5xl text-[#a8a8a850] dark:text-[#ffffff59]"
+                >&#10078;</span
+              >
+            </blockquote>
+            <article>
+              <p
+                class="mt-2 text-right font-extralight italic text-gray-800 dark:text-gray-500"
+              >
+                &#8212;Anderson Jhonatan
+              </p>
+            </article>
+          </section>
+          <section>
+            <blockquote
+              class="rounded-xl border border-solid border-gray-200 p-2 dark:border dark:border-solid dark:border-gray-800 sm:border-solid sm:bg-transparent dark:sm:border dark:sm:border-solid dark:sm:border-gray-800 dark:sm:bg-[#000]"
+            >
+              <span class="grid text-5xl text-[#a8a8a850] dark:text-[#ffffff59]"
+                >&#10077;</span
+              >
+              <p
+                class="rounded-xl border-solid px-6 py-4 text-left text-2xl font-light text-black before:absolute before:top-0 before:content-['\201c'] dark:text-white sm:text-black dark:sm:text-white"
+              >
+              A Stellar nunca decepciona! O foguete Explorer chegou em uma caixa de madeira, exatamente como eu esperava. A++ satisfação do cliente!
+              </p>
+              <span
+                class="flex items-center justify-end text-5xl text-[#a8a8a850] dark:text-[#ffffff59]"
+                >&#10078;</span
+              >
+            </blockquote>
+            <article>
+              <p
+                class="mt-2 text-right font-extralight italic text-gray-800 dark:text-gray-500"
+              >
+                &#8212;Anderson Jhonatan
+              </p>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+      <section id="contact" class="my-8 scroll-mt-28 p-6 ">
+        <blockquote>
+          <h2
+            class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+          >
+          Contate-nos
+          </h2>
+        </blockquote>
+        <form id="form" class="flex flex-col gap-3">
+          <label for="subject">Assunto:</label>
+          <input
+            type="text"
+            id="subject"
+            class="rounded-md border bg-gray-200 p-2 outline-none focus:bg-slate-200 dark:text-black sm:text-black"
+            placeholder="Seu assunto
+            "
+          />
+          <label for="Message">Mensagem:</label>
+          <textarea
+            id="Message"
+            cols="30"
+            rows="10"
+            class="break-words rounded-md border bg-gray-200 p-2 text-black outline-none focus:bg-slate-200 dark:text-black"
+            placeholder="Sua mensagem"
+          ></textarea>
+          <button
+            type="button"
+            class="m-auto w-full rounded-md bg-[#0f766e] p-2 text-white transition-all duration-500 hover:bg-[#0f766dcb] dark:text-white sm:m-0 sm:flex sm:w-1/6 sm:justify-center"
+            id="button"
+          >
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <a
+      href="#hero"
+      class="text-1xl fixed right-2 rounded-full border bg-[#0f766d] p-1 text-white outline-none hover:border-gray-700 hover:bg-[#0f766dee] dark:border-none dark:border-slate-800 sm:bottom-24"
+      >&#8687;</a
+    >
+
+    <footer
+      class="flex items-center justify-center bg-[#0f766d] py-2 text-white dark:text-black sm:justify-evenly"
+    >
+      <p class="flex p-1 sm:justify-center">&copy; 2023 Anderson Jhonatan.</p>
+      <nav class="flex flex-col">
+        <a href="#rockets" class="hidden sm:flex">Foguetes</a>
+        <a href="#testimonials" class="hidden sm:flex">Testemunhos</a>
+        <a href="#contact" class="hidden sm:flex">Contate-nos</a>
+      </nav>
+    </footer>
+
+  </body>
+  <script src="js/index.js" defer></script>
+</html>
